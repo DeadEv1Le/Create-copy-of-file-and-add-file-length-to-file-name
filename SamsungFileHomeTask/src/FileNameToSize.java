@@ -13,15 +13,6 @@ public class FileNameToSize {
             FileWriter out = new FileWriter(in1.length() + ".txt");
 
 
-            File out2 = new File("b.text");
-            File rename = new File(in1.length() + ".txt");
-
-
-            out2.renameTo(rename);
-            System.out.println(out2.getName());
-            //how to rename a file into
-
-
             int c;
             while ((c = in.read()) != -1) {
                 out.write(c);
